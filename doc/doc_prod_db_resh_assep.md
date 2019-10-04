@@ -2,18 +2,24 @@
 
 # Livrables
 
-valeur chiffrée et mesurées (x,y,z) s'entendent en précision millimétrique
+## Topologie
 
-définition ouvrage, appareillage
+Les valeurs chiffrées et mesurées (x,y,z) s'entendent avec une précision millimétrique
+
+## Format des fichiers
+
+Les fichiers sont au format ESRI Shape (.SHP).
+L'encodage des caractères est en UTF8.
 
 ## Topologie
 
+
 - tout objet est nécessairement inclu dans l'emprise de l'opération de levé qui lui est liée
 - toute canalisation ou réseau de surface est connecté à 2 noeuds.
-- dans le
-- tout objet appartient à une et une seule commune. Il faut donc couper les objets linéaires en utilisant si nécessaire un noeud fictif assurant le raccord topologique
+- tout objet appartient à une et une seule commune. Il faut donc couper les objets linéaires en utilisant si nécessaire un noeud fictif pour assurer le raccord topologique
 
 ## Description des classes d'objets
+
 
 |Nom fichier | Définition | Catégorie | Géométrie |
 |:---|:---|:---|:---|
@@ -28,9 +34,6 @@ définition ouvrage, appareillage
 |ouvrage|Autre ouvrage du réseau pluvial|Réseau|Ponctuel|
 |appareillage|Appareillage du réseau pluvial|Réseau|Ponctuel|
 |noeud|Autre noeud du réseau pluvial |Réseau|Ponctuel|
-
-
-
 
 ### Métadonnées de production
   
