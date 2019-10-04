@@ -36,7 +36,7 @@ définition ouvrage, appareillage
   
 `operation` : Emprise d'une opération de levé du réseau, correspondant généralement, à l'emprise d'une ou plusieurs voies publiques
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refope|Référence de l'opération|character varying(80)| |
 |datefinope|Date de fin de l'opération de levé|date| |
@@ -49,7 +49,7 @@ Particularité(s) à noter :
   
 `exclusion` : Secteur d'exclusion de levé au sein d'une opération, correspondant généralement à une incapacité de lever le réseau
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refope|Référence de l'opération|character varying(80)| |
 |observ|Observations|character varying(254)| |
@@ -58,7 +58,7 @@ Particularité(s) à noter :
 
 `pointleve` : Point levé sur le terrain
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refptope|Matricule du point de levé|character varying(30)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -72,7 +72,7 @@ Particularité(s) à noter :
 
 `canalisation` : Canalisation d'eau pluviale
 
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -104,7 +104,7 @@ Particularité(s) à noter :
 
 `reseausurf` : Réseau de surface
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -130,7 +130,7 @@ Particularité(s) à noter :
 
 `regard` : Regard du réseau pluvial
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -156,7 +156,7 @@ Particularité(s) à noter :
 
 `avaloir` : Avaloir du réseau pluvial
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -180,7 +180,7 @@ Particularité(s) à noter :
 
 `bassin` : Bassin du réseau pluvial
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -206,7 +206,7 @@ Particularité(s) à noter :
 
 `ouvrage` : Autre ouvrage du réseau pluvial (hors regard, avaloir et bassin)
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -229,7 +229,7 @@ Particularité(s) à noter :
 
 `appareillage` : Appareillage du réseau pluvial
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
@@ -252,7 +252,7 @@ Particularité(s) à noter :
 
 `noeud` : Autre noeud du réseau pluvial (noeud de raccord topologique fictif)
    
-|Nom attribut | Définition | Type | Valeurs par défaut |
+|Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
