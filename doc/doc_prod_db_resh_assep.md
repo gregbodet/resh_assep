@@ -56,8 +56,8 @@ Particularité(s) à noter :
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
-|idnini| | | |
-|idnterm| | | |
+|idnini|Identifiant du noeud de début de tronçon|character varying(254)| |
+|idnterm|Identifiant du noeud de fin de tronçon|character varying(254)| |
 |materiau|Matériau de la canalisation|character varying(5)|lt_materiau|
 |diametre|Diamètre nominal de la canalisation (en millimètres)|integer| |
 |forme|Forme de la section de la canalisation|character varying(2)|lt_formcanass|
@@ -65,19 +65,19 @@ Particularité(s) à noter :
 |branchemnt|Canalisation de branchement individuel (O/N)|character varying(1)|lt_boolean|
 |modecirc|Mode de circulation de l'eau à l'intérieur de la canalisation|character varying(2)|lt_modecirc|
 |fncanass|Fonction de la canalisation d'assainissement collectif|character varying(2)|lt_fncanass|
-|zradnini| | | |
-|zradnterm| | | |
-|sensecoul| | | |
-|doman| | | |
-|qualglocxy| | | |
-|qualglocz| | | |
-|datemaj| | | |
-|sourmaj| | | |
-|dategeoloc| | | |
-|sourgeoloc| | | |
-|sourattrib| | | |
-|mesure| | | |
-|fictif| | | |
+|zradnini|Cote radier de début de tronçon (en mètres, Référentiel NGFIGN69)|numeric(7,3)| |
+|zradnterm|Cote radier de fin de tronçon (en mètres, Référentiel NGFIGN69)|numeric(7,3)| |
+|sensecoul|Sens d'écoulement entre le noeud initial et terminal|character varying(1)|lt_sensecoul|
+|doman|Domanialité|character varying(2)|lt_doman|
+|qualglocxy|Qualité de la géolocalisation planimétrique (XY)|character varying(1)|lt_clprec|
+|qualglocz|Qualité de la géolocalisation altimétrique (Z)|character varying(1)|lt_clprec|
+|datemaj|Date de la dernière mise à jour des informations|date| |
+|sourmaj|Source de la mise à jour|character varying(100)| |
+|dategeoloc|Date de la géolocalisation|date| |
+|sourgeoloc|Auteur de la géolocalisation|character varying(100)| |
+|sourattrib|Auteur de la saisie des données attributaires (lorsque différent de l'auteur de la géolocalisation)|character varying(100)| |
+|mesure|Indication si les paramètres chiffrés (x,y,z ...) sont issus d''un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
+|fictif|Indique si l''entité est une simple construction topologique (fictive) (O) ou un objet réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
 
 ---
