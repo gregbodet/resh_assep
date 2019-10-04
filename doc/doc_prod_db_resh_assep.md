@@ -110,7 +110,7 @@ Particularité(s) à noter :
 
 ---
 
-`regard` : Regard du résaeu pluvial
+`regard` : Regard du réseau pluvial
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
@@ -135,3 +135,28 @@ Particularité(s) à noter :
 |observ|Observations|character varying(254)| |
 
 ---
+
+`avaloir` : Avaloir du réseau pluvial
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|refassep|Référence producteur de l'entité|character varying(254)| |
+|refope|Référence de l'opération|character varying(80)| |
+|ztn|Altimétrie du terrain naturel (en mètres, Référentiel NGFIGN69)|numeric(7,3)| |
+|zrad|Altimétrie de la cote radier (en mètres, Référentiel NGFIGN69)|numeric(7,3)| |
+|typavalass|Type d''avaloir|character varying(2)|lt_typavalass|
+|tampon|Présence d'un tampon (O/N)|character varying(1)|lt_boolean|
+|doman|Domanialité|character varying(2)|lt_doman|
+|qualglocxy|Qualité de la géolocalisation planimétrique (XY)|character varying(1)|lt_clprec|
+|qualglocz|Qualité de la géolocalisation altimétrique (Z)|character varying(1)|lt_clprec|
+|datemaj|Date de la dernière mise à jour des informations|date| |
+|sourmaj|Source de la mise à jour|character varying(100)| |
+|dategeoloc|Date de la géolocalisation|date| |
+|sourgeoloc|Auteur de la géolocalisation|character varying(100)| |
+|sourattrib|Auteur de la saisie des données attributaires (lorsque différent de l'auteur de la géolocalisation)|character varying(100)| |
+|mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
+|fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
+|observ|Observations|character varying(254)| |
+
+---
+
