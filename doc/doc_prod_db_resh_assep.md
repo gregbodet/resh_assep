@@ -76,8 +76,8 @@ Particularité(s) à noter :
 |dategeoloc|Date de la géolocalisation|date| |
 |sourgeoloc|Auteur de la géolocalisation|character varying(100)| |
 |sourattrib|Auteur de la saisie des données attributaires (lorsque différent de l'auteur de la géolocalisation)|character varying(100)| |
-|mesure|Indication si les paramètres chiffrés (x,y,z ...) sont issus d''un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
-|fictif|Indique si l''entité est une simple construction topologique (fictive) (O) ou un objet réel du réseau (N)|character varying(1)|lt_boolean|
+|mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
+|fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
 
 ---
