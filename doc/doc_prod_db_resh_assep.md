@@ -119,7 +119,7 @@ Particularité(s) à noter :
 |formregass|Forme du regard|character varying(2)|lt_formregass|
 |tampon|Présence d'un tampon (O/N)|character varying(1)|lt_boolean|
 |grille|Présence d'une grille (O/N)|character varying(1)|lt_boolean|
-|acces|v|character varying(1)|lt_boolean|
+|acces|Regard accessible (O/N)|character varying(1)|lt_boolean|
 |doman|Domanialité|character varying(2)|lt_doman|
 |qualglocxy|Qualité de la géolocalisation planimétrique (XY)|character varying(1)|lt_clprec|
 |qualglocz|Qualité de la géolocalisation altimétrique (Z)|character varying(1)|lt_clprec|
