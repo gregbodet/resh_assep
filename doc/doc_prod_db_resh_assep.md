@@ -50,11 +50,16 @@ Particularité(s) à noter :
 
 ### Réseau
 
-`canalisation` : 
+`canalisation` : Canalisation d'eau pluviale
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
+|refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
+|nini|Référence de l'opération|character varying(254)| |
+
+
+
 |observ|Observations|character varying(254)| |
 
 ---
