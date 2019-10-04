@@ -276,3 +276,6 @@ Particularité(s) à noter :
 |sourattrib|Auteur de la saisie des données attributaires (lorsque différent de l'auteur de la géolocalisation)|character varying(100)| |
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+
+### Habillage
+
