@@ -50,7 +50,7 @@ Particularité(s) à noter :
 
 ### Réseau
 
-`canalisation` : Canalisation d'eau pluviale
+`reseausurf` : Réseau de surface
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
@@ -58,13 +58,7 @@ Particularité(s) à noter :
 |refope|Référence de l'opération|character varying(80)| |
 |idnini|Identifiant du noeud de début de tronçon|character varying(254)| |
 |idnterm|Identifiant du noeud de fin de tronçon|character varying(254)| |
-|materiau|Matériau de la canalisation|character varying(5)|lt_materiau|
-|diametre|Diamètre nominal de la canalisation (en millimètres)|integer| |
-|forme|Forme de la section de la canalisation|character varying(2)|lt_formcanass|
-|enservice|Canalisation en service (O/N)|character varying(1)|lt_boolean|
-|branchemnt|Canalisation de branchement individuel (O/N)|character varying(1)|lt_boolean|
-|modecirc|Mode de circulation de l'eau à l'intérieur de la canalisation|character varying(2)|lt_modecirc|
-|fncanass|Fonction de la canalisation d'assainissement collectif|character varying(2)|lt_fncanass|
+|typressurf|Type de réseau de surface d''eau pluviale|character varying(2)|lt_typressurf|
 |zradnini|Cote radier de début de tronçon (en mètres, Référentiel NGFIGN69)|numeric(7,3)| |
 |zradnterm|Cote radier de fin de tronçon (en mètres, Référentiel NGFIGN69)|numeric(7,3)| |
 |sensecoul|Sens d'écoulement entre le noeud initial et terminal|character varying(1)|lt_sensecoul|
