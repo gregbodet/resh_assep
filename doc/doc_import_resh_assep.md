@@ -8,7 +8,7 @@ Les livrables transmis auprès de la collectivé
 
 ds
 
- ### métadonnée de production  :
+ ### Métadonnées de production  :
   
    `operation` : Emprise d'une opération de levé du réseau, correspondant généralement, à l'emprise d'une ou plusieurs voies publiques
    
@@ -31,3 +31,18 @@ Particularité(s) à noter :
 |observ|Observations|character varying(254)| |
 
 ---
+
+   `pointleve` : Point levé sur le terrain
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|refptope|Matricule du point de levé|character(30)| |
+|refope|Référence de l'opération|character(80)| |
+|z|Altimétrie Z NGF (en mètres)|numeric(7,3)| |
+|precxy|Précision absolue en planimètre (en mètres)|numeric(7,3)| |
+|precz|Précision absolue en altimétrie (en mètres)|numeric(7,3)| |
+|horodatage|Horodatage du point levé|Date Heure| |
+|observ|Observations|character varying(254)| |
+
+Particularité(s) à noter :
+* la référence de l'opération est reportée dans l'ensemble des autres classes d'objet
