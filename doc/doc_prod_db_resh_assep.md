@@ -4,8 +4,8 @@
 
 ## Système de coordonnées
 
-Les coordonnées des objets levés seront exprimées en mètre avec trois chiffres après la virgule dans le système national en vigueur.
-Sur le territoire métropolitain s'applique le système géodésique français légal RGF93 associé au système altimétrique IGN69. La projection associées Lambert 93 France (epsg:2154) sera à utiliser pour la livraison des données.
+Les coordonnées seront exprimées en mètre avec trois chiffres après la virgule dans le système national en vigueur.
+Sur le territoire métropolitain s'applique le système géodésique français légal RGF93 associé au système altimétrique IGN69. La projection associée Lambert 93 France (epsg:2154) sera à utiliser pour la livraison des données.
 
 ## Topologie
 
@@ -20,7 +20,6 @@ Ainsi
 
 Les fichiers sont au format ESRI Shape (.SHP).
 L'encodage des caractères est en UTF8.
-
 
 ## Description des classes d'objets
 
