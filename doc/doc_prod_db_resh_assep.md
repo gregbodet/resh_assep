@@ -4,6 +4,8 @@
 
 valeur chiffrée et mesurées (x,y,z) s'entendent en précision millimétrique
 
+définition ouvrage, appareillage
+
 ## Topologie
 
 - tout objet est nécessairement inclu dans l'emprise de l'opération de levé qui lui est liée
