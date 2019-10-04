@@ -2,8 +2,9 @@
 
 # Livrables
 
-## Topologie
+## Système de mesure
 
+Les entités sont Lambert 93 France (epsg:2154)
 Les valeurs chiffrées et mesurées (x,y,z) s'entendent avec une précision millimétrique
 
 ## Format des fichiers
