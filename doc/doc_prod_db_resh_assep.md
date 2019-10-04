@@ -2,25 +2,27 @@
 
 # Livrables
 
-## Système de mesure
+## Système de coordonnées
 
-Les entités sont Lambert 93 France (epsg:2154)
-Les valeurs chiffrées et mesurées (x,y,z) s'entendent avec une précision millimétrique
+Les coordonnées des objets levés seront exprimées en mètre avec trois chiffres après la virgule dans le système national en vigueur.
+Sur le territoire métropolitain s'applique le système géodésique français légal RGF93 associé au système altimétrique IGN69. La projection associées Lambert 93 France (epsg:2154) sera à utiliser pour la livraison des données.
+
+## Topologie
+
+Les données appliquent une topologie de réseau en deux dimensions. Elle décrit la relation entre des arcs et des noeuds en inscrivant le référencement des noeuds dans la description des arcs.
+Ainsi
+- tout objet est nécessairement inclu dans l'emprise de l'opération de levé qui lui est liée
+- toute canalisation ou réseau de surface est connecté à deux noeuds.
+- un noeud fictif sécant sera appliqué tout les 50m dans le cas d'un réseau de surface rectiligne supérieur à cette distance afin de disposer de mesures (z) intermédaires
+- tout objet appartient à une et une seule commune. Il faut donc couper les objets linéaires en utilisant si nécessaire un noeud fictif pour assurer le raccord topologique
 
 ## Format des fichiers
 
 Les fichiers sont au format ESRI Shape (.SHP).
 L'encodage des caractères est en UTF8.
 
-## Topologie
-
-
-- tout objet est nécessairement inclu dans l'emprise de l'opération de levé qui lui est liée
-- toute canalisation ou réseau de surface est connecté à 2 noeuds.
-- tout objet appartient à une et une seule commune. Il faut donc couper les objets linéaires en utilisant si nécessaire un noeud fictif pour assurer le raccord topologique
 
 ## Description des classes d'objets
-
 
 |Nom fichier | Définition | Catégorie | Géométrie |
 |:---|:---|:---|:---|
@@ -35,6 +37,8 @@ L'encodage des caractères est en UTF8.
 |ouvrage|Autre ouvrage du réseau pluvial|Réseau|Ponctuel|
 |appareillage|Appareillage du réseau pluvial|Réseau|Ponctuel|
 |noeud|Autre noeud du réseau pluvial |Réseau|Ponctuel|
+
+## Implémentation informatique
 
 ### Métadonnées de production
   
