@@ -6,11 +6,10 @@ Les livrables transmis auprès de la collectivé
 
 ## Classes d'objets
 
-ds
 
- ### Métadonnées de production  :
+### Métadonnées de production
   
-   `operation` : Emprise d'une opération de levé du réseau, correspondant généralement, à l'emprise d'une ou plusieurs voies publiques
+`operation` : Emprise d'une opération de levé du réseau, correspondant généralement, à l'emprise d'une ou plusieurs voies publiques
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
@@ -23,7 +22,7 @@ Particularité(s) à noter :
 * la référence de l'opération est reportée dans l'ensemble des autres classes d'objet
 ---
   
-   `exclusion` : Secteur d'exclusion de levé au sein d'une opération, correspondant généralement à une incapacité de lever le réseau
+`exclusion` : Secteur d'exclusion de levé au sein d'une opération, correspondant généralement à une incapacité de lever le réseau
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
@@ -32,7 +31,7 @@ Particularité(s) à noter :
 
 ---
 
-   `pointleve` : Point levé sur le terrain
+`pointleve` : Point levé sur le terrain
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
@@ -44,5 +43,13 @@ Particularité(s) à noter :
 |horodatage|Horodatage du point levé|timestamp| |
 |observ|Observations|character varying(254)| |
 
-Particularité(s) à noter :
-* la référence de l'opération est reportée dans l'ensemble des autres classes d'objet
+### Réseau
+
+`canalisation` : 
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|refope|Référence de l'opération|character varying(80)| |
+|observ|Observations|character varying(254)| |
+
+---
