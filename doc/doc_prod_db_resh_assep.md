@@ -4,7 +4,10 @@
 
 ## Topologie
 
-qsdqsdsq 
+- tout objet est nécessairement inclu dans l'emprise de l'opération de levé qui lui est liée
+- toute canalisation ou réseau de surface est connecté à 2 noeuds.
+- dans le
+- tout objet appartient à une et une seule commune. Il faut donc couper les objets linéaires en utilisant si nécessaire un noeud fictif assurant le raccord topologique
 
 ## Description des classes d'objets
 
