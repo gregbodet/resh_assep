@@ -56,10 +56,28 @@ Particularité(s) à noter :
 |:---|:---|:---|:---|
 |refassep|Référence producteur de l'entité|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
-|nini|Référence de l'opération|character varying(254)| |
-
-
-
+|idnini| | | |
+|idnterm| | | |
+|materiau| | | |
+|diametre| | | |
+|forme| | | |
+|enservice| | | |
+|branchemnt| | | |
+|modecirc| | | |
+|fncanass| | | |
+|zradnini| | | |
+|zradnterm| | | |
+|sensecoul| | | |
+|doman| | | |
+|qualglocxy| | | |
+|qualglocz| | | |
+|datemaj| | | |
+|sourmaj| | | |
+|dategeoloc| | | |
+|sourgeoloc| | | |
+|sourattrib| | | |
+|mesure| | | |
+|fictif| | | |
 |observ|Observations|character varying(254)| |
 
 ---
