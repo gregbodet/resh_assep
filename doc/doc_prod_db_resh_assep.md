@@ -15,6 +15,22 @@ définition ouvrage, appareillage
 
 ## Description des classes d'objets
 
+|Nom fichier | Définition | Catégorie | Géométrie |
+|:---|:---|:---|:---|
+|operation|Emprise d'une opération de levé du réseau|Métadonnée de production|Surface|
+|exclusion|Secteur d'exclusion de levé|Métadonnée de production|Surface|
+|pointleve|Point levé sur le terrain|Métadonnée de production|Ponctuel|
+|canalisation|Canalisation d'eau pluviale|Réseau|Linéaire|
+|reseausurf|Réseau de surface d'eau pluviale|Réseau|Linéaire|
+|regard|Regard du réseau pluvial|Réseau|Ponctuel|
+|avaloir|Avaloir du réseau pluvial|Réseau|Ponctuel|
+|bassin|Bassin du réseau pluvial|Réseau|Ponctuel|
+|ouvrage|Autre ouvrage du réseau pluvial|Réseau|Ponctuel|
+|appareillage|Appareillage du réseau pluvial|Réseau|Ponctuel|
+|noeud|Autre noeud du réseau pluvial |Réseau|Ponctuel|
+
+
+
 
 ### Métadonnées de production
   
