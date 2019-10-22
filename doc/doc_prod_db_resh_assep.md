@@ -1,5 +1,10 @@
 ![picto](/doc/img/Logo_web-GeoCompiegnois.png)
 
+# Changelog
+
+- 22/10/2019 : ajout des attributs génériques 'ficmedia(x)' pour les objets du réseau
+- 22/10/2019 : ajout d'un attribut 'refexc' comme réference du producteur pour les secteurs d'exclusion
+
 # Livrables
 
 ## Système de coordonnées
