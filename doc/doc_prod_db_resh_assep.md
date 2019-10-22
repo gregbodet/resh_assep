@@ -4,6 +4,9 @@
 
 - 22/10/2019 : ajout des attributs génériques 'ficmedia(x)' pour les objets du réseau
 - 22/10/2019 : ajout d'un attribut 'refexc' comme réference du producteur pour les secteurs d'exclusion
+- xx/xx/xxxx : ajout d'un attribut 'xxxxx' pour la liste des anomalies du réseau
+- xx/xx/xxxx : ajout des fichiers 'xxxxx' relatifs à l'habillage du plan
+- xx/xx/xxxx : ajout des attributs 'xxxxx' relatifs à la symbologie du réseau pluvial 
 
 # Livrables
 
