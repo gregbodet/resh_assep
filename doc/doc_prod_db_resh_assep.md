@@ -57,6 +57,7 @@ Particularité(s) à noter :
    
 |Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
+|refexc|Référence du secteur d'exclusion|character varying(254)| |
 |refope|Référence de l'opération|character varying(80)| |
 |observ|Observations|character varying(254)| |
 
