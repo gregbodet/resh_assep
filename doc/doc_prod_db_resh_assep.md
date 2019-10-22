@@ -2,7 +2,7 @@
 
 # Changelog
 
-- 04/10/2019 :description initiale du modèle de production de l'inventaire du réseau pluvial
+- 04/10/2019 : description initiale du gabarit de production de l'inventaire du réseau pluvial
 - 22/10/2019 : ajout des attributs génériques 'ficmedia(x)' pour les objets du réseau
 - 22/10/2019 : ajout d'un attribut 'refexc' comme réference du producteur pour les secteurs d'exclusion
 - xx/xx/xxxx : ajout d'un attribut 'xxxxx' pour la liste des anomalies du réseau
