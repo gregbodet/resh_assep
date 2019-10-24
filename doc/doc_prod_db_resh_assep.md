@@ -121,9 +121,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ---
 
@@ -152,9 +152,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ---
 
@@ -183,9 +183,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ---
 
@@ -212,9 +212,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ---
 
@@ -243,9 +243,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ---
 
@@ -271,9 +271,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ---
 
@@ -299,9 +299,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ---
 
@@ -325,9 +325,9 @@ Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 |observ|Observations|character varying(254)| |
 |anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
 |listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
-|ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
-|ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
-|ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
+|ficmedia1|Nom du fichier media n°1 (avec extension)|text| |
+|ficmedia2|Nom du fichier media n°2 (avec extension)|text| |
+|ficmedia3|Nom du fichier media n°3 (avec extension)|text| |
 
 ### Habillage
 
