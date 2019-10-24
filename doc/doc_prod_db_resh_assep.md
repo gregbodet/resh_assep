@@ -5,7 +5,7 @@
 - 04/10/2019 : description initiale du gabarit de production de l'inventaire du réseau pluvial
 - 22/10/2019 : ajout des attributs génériques 'ficmedia(x)' pour les objets du réseau
 - 22/10/2019 : ajout d'un attribut 'refexc' comme réference du producteur pour les secteurs d'exclusion
-- xx/xx/xxxx : ajout d'un attribut 'xxxxx' pour la liste des anomalies du réseau
+- 24/10/2019 : ajout d'un attribut 'anomal' et 'listanomal' pour les anomalies du réseau
 - xx/xx/xxxx : ajout des fichiers 'xxxxx' relatifs à l'habillage du plan
 - xx/xx/xxxx : ajout des attributs 'xxxxx' relatifs à la symbologie du réseau pluvial 
 
@@ -115,6 +115,8 @@ Particularité(s) à noter :
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
@@ -144,6 +146,8 @@ Particularité(s) à noter :
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
@@ -173,6 +177,8 @@ Particularité(s) à noter :
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
@@ -200,6 +206,8 @@ Particularité(s) à noter :
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
@@ -229,6 +237,8 @@ Particularité(s) à noter :
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
@@ -255,6 +265,8 @@ Particularité(s) à noter :
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
@@ -281,6 +293,8 @@ Particularité(s) à noter :
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |fictif|Objet de construction topologique (fictif) (O) ou réel du réseau (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
@@ -305,6 +319,8 @@ Particularité(s) à noter :
 |sourattrib|Auteur de la saisie des données attributaires (lorsque différent de l'auteur de la géolocalisation)|character varying(100)| |
 |mesure|Paramètres chiffrés (x,y,z ...) issus d'un levé (O) ou interpollés (N)|character varying(1)|lt_boolean|
 |observ|Observations|character varying(254)| |
+|anomal|Présence d'une anomalie (O) ou non (N)|character varying(1)|lt_boolean|
+|listanomal|Liste d'anomalie(s) présente(s)|character varying(80)| |
 |ficmedia1|Nom du fichier media n°1 (avec extension)|character varying(254)| |
 |ficmedia2|Nom du fichier media n°2 (avec extension)|character varying(254)| |
 |ficmedia3|Nom du fichier media n°3 (avec extension)|character varying(254)| |
