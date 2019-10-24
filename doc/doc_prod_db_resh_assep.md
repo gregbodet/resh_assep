@@ -88,7 +88,7 @@ Particularité(s) à noter :
 
 ### Réseau
 
-Ensemble de données décrivant les objets d'un réseau d'eau pluviale.
+Ensemble de données décrivant les objets composant un réseau d'eau pluviale.
 
 `canalisation` : Canalisation d'eau pluviale
 
