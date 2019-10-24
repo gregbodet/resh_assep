@@ -48,6 +48,8 @@ L'encodage des caractères est en UTF8.
 ## Implémentation informatique
 
 ### Métadonnées de production
+
+Ensemble de données permettant de disposer d'un état de connaissance des levés du réseau
   
 `operation` : Emprise d'une opération de levé du réseau, correspondant généralement, à l'emprise d'une ou plusieurs voies publiques
    
@@ -85,6 +87,8 @@ Particularité(s) à noter :
 |observ|Observations|character varying(254)| |
 
 ### Réseau
+
+Ensemble de données décrivant les objets d'un réseau d'eau pluviale.
 
 `canalisation` : Canalisation d'eau pluviale
 
@@ -301,7 +305,7 @@ Particularité(s) à noter :
 
 ---
 
-`noeud` : Autre noeud du réseau pluvial (noeud de raccord topologique fictif)
+`noeud` : noeud fictif du réseau pluvial dont l'usage est rendu nécessaire pour le respect des règles de modélisation de la base de données (topologie de réseau)
    
 |Nom attribut | Définition | Type | Valeurs |
 |:---|:---|:---|:---|
