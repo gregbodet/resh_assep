@@ -6,7 +6,6 @@
 
 ## Principes
 
-- L'organisation intègre une procédure spécifique destinée à stocker en phase transitoire pendant l'inventaire
 - L'envoi de fichiers par le prestataire repose sur un gabarit QGIS maintenu et transmis par la collectivité
 - Chaque envoi par le prestataire annule et remplace les envois précédents
 - La donnée d'inventaire est intégrée en l'état dans une base temporaire sans contraintes (fkey, NULL ...)
