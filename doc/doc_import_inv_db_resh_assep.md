@@ -1,6 +1,6 @@
 ![picto](/doc/img/Logo_web-GeoCompiegnois.png)
 
-# Procédures d'import des données issues des levés dans la base
+# Procédure d'intégration des données de réseau d'eau pluviale
 
 # En phase d'inventaire
 
@@ -19,5 +19,8 @@
 3. controler les données de l'inventaire avec le worflow FME **data_assep_inv_file2chk.fmw**
 4. 
 
+# A posteriori de l'inventaire
 
+## Principes
 
+## Opérations
