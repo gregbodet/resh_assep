@@ -1,6 +1,6 @@
 ![picto](/doc/img/Logo_web-GeoCompiegnois.png)
 
-# Procédures
+# Procédures d'import des données issues des levés dans la base
 
 ## Intégration de l'inventaire
 
