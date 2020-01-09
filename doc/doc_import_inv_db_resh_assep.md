@@ -19,7 +19,7 @@
 3. controler les données de l'inventaire avec le worflow FME **data_assep_inv_file2chk.fmw**
 4. 
 
-# A posteriori de l'inventaire
+# A l'initialisation de la phase de gestion
 
 ## Principes
 
